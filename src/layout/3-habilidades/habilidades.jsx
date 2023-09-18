@@ -79,70 +79,46 @@ export default function Habilidades(props) {
 
                     {/* Cards De Habilidade */}
                     <div id={styles.conteiner_cards}>
-                        <div className={styles.cards} onClick={hab_1}>
-                            <span>
-                                <img src="/icon-habilits/html5-plain.svg" className={styles.iconHabilits} alt="icon_HTML_5" />
-                                <h3 className={styles.title_ability}></h3>
-                                <p className="h5 px-1">HTML</p>
-                            </span>
+                        <div className={styles.cards} onClick={hab_1} id={styles.hab_1}>
+                            <img src="/icon-habilits/html5-plain.svg" className={styles.iconHabilits} alt="Avançado" />
+                            <p className="h5 px-1">HTML</p>
                         </div>
-                        <div className={styles.cards} onClick={hab_2}>
-                            <span>
-                                <img src="/icon-habilits/css3-plain.svg" className={styles.iconHabilits} alt="icon_CSS_3" />
-                                <h3 className={styles.title_ability}></h3>
-                                <p className="h5 px-1">CSS</p>
-                            </span>
+                        <div className={styles.cards} onClick={hab_2} id={styles.hab_2}>
+                            <img src="/icon-habilits/css3-plain.svg" className={styles.iconHabilits} alt="icon_CSS_3" />
+                            <p className="h5 px-1">CSS</p>
                         </div>
-                        <div className={styles.cards} onClick={hab_3}>
-                            <span>
-                                <img src="/icon-habilits/javascript-plain.svg" className={styles.iconHabilits} alt="icon_JS" />
-                                <h3 className="title_ability"></h3>
-                                <p className="h5 px-1">JAVASCRIPT</p>
-                            </span>
+                        <div className={styles.cards} onClick={hab_3} id={styles.hab_3}>
+                            <img src="/icon-habilits/javascript-plain.svg" className={styles.iconHabilits} alt="icon_JS" />
+                            <p className="h5 px-1">JAVASCRIPT</p>
                         </div>
-                        <div className={styles.cards} onClick={hab_4}>
-                            <span>
-                                <img src="/icon-habilits/sass-original.svg" className={styles.iconHabilits} alt="icon_SASS" />
-                                <h3 className={styles.title_ability}></h3>
-                                <p className="h5 px-1">SASS</p>
-                            </span>
+                        <div className={styles.cards} onClick={hab_4} id={styles.hab_4}>
+                            <img src="/icon-habilits/sass-original.svg" className={styles.iconHabilits} alt="icon_SASS" />
+                            <p className="h5 px-1">SASS</p>
                         </div>
 
                         {/* Baililidades que somem na tela pequena */}
                         {maisHabilidades && (
-                            <div className={styles.cards} onClick={hab_5}>
-                                <span>
-                                    <img src="/icon-habilits/bootstrap-plain.svg" className={styles.iconHabilits} alt="icon_BOOTSTRAP" />
-                                    <h3 className={styles.title_ability}></h3>
-                                    <p className="h5 px-1">BOOTS...</p>
-                                </span>
+                            <div className={styles.cards} onClick={hab_5} id={styles.hab_5}>
+                                <img src="/icon-habilits/bootstrap-plain.svg" className={styles.iconHabilits} alt="icon_BOOTSTRAP" />
+                                <p className="h5 px-1">BOOTS...</p>
                             </div>
                         )}
                         {maisHabilidades && (
-                            <div className={styles.cards} onClick={hab_6}>
-                                <span>
-                                    <img src="/icone-habilidades/react.png" className={styles.iconHabilits} alt="icon_REACT" />
-                                    <h3 className={styles.title_ability}></h3>
-                                    <p className="h5 px-1">REACT</p>
-                                </span>
+                            <div className={styles.cards} onClick={hab_6} id={styles.hab_6}>
+                                <img src="/icone-habilidades/react.png" className={styles.iconHabilits} alt="icon_REACT" />
+                                <p className="h5 px-1">REACT</p>
                             </div>
                         )}
                         {maisHabilidades && (
-                            <div className={styles.cards} onClick={hab_7}>
-                                <span>
-                                    <img src="/icon-habilits/mongodb-plain.svg" className={styles.iconHabilits} alt="icon_mongoDB" />
-                                    <h3 className={styles.title_ability}></h3>
-                                    <p className="h5 px-1">MONGO.DB</p>
-                                </span>
+                            <div className={styles.cards} onClick={hab_7} id={styles.hab_7}>
+                                <img src="/icon-habilits/mongodb-plain.svg" className={styles.iconHabilits} alt="icon_mongoDB" />
+                                <p className="h5 px-1">MONGO.DB</p>
                             </div>
                         )}
                         {maisHabilidades && (
-                            <div className={styles.cards} onClick={hab_8}>
-                                <span>
-                                    <img src="/icon-habilits/nodejs-plain.svg" className={styles.iconHabilits} alt="icon_NodeJs" />
-                                    <h3 className={styles.title_ability}></h3>
-                                    <p className="h5 px-1">NODE.JS</p>
-                                </span>
+                            <div className={styles.cards} onClick={hab_8} id={styles.hab_8}>
+                                <img src="/icon-habilits/nodejs-plain.svg" className={styles.iconHabilits} alt="icon_NodeJs" />
+                                <p className="h5 px-1">NODE.JS</p>
                             </div>
                         )}
 

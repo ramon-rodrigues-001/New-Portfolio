@@ -18,7 +18,7 @@ export default function Convite(props) {
                         <img src="https://thumbs.dreamstime.com/z/equipe-do-programador-e-de-projeto-torna-se-para-aplica%C3%A7%C3%A3o-web-com-funcionamento-da-neg%C3%B3cio-126510094.jpg?w=992" alt="" className={styles.img} />
                         <h3 className={styles.titleConvite}>Vamos trabalhar juntos</h3>
                         <p>
-                            Esta precisando de um programador/desenvolvedor web para sua empresa Vamos conversar e discutir como posso contribuir com as suas necessidades. Mande um oi 🖐.
+                            Se a sua empresa está em busca de um desenvolvedor web, estou à disposição para uma conversa, e para discutir como posso contribuir para atender às suas necessidades. Sinta-se à vontade para dar um alô 🖐.
                         </p>
                         <button class="btnPersonalizado" >
                             <a href="#div-name-email" class="a">

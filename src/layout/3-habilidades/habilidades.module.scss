@@ -10,6 +10,7 @@
     color: rgb(71, 71, 71);
     padding: 30px 0px 10px 0px;
     min-height: 100vh;
+    border-top: solid 1px rgba(255, 255, 255, 0.492);
 
     .container_habilidades {
         margin: auto;
@@ -46,14 +47,9 @@
             min-width: 200px;
             padding: 10px 20px;
             cursor: pointer;
-
-            span {
-                display: flex;
-                align-items: center;
-                gap: 2px;
-                color: rgb(81, 81, 81);
-                text-decoration: none;
-            }
+            display: flex;
+            align-items: center;
+            gap: 10px;
 
             .iconHabilits {
                 width: 50px;
@@ -62,6 +58,65 @@
                 transition: .5s;
             }
 
+
+            &::after {
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #333;
+                color: #fff;
+                padding: 5px 20px;
+                border-radius: 5px;
+                opacity: 0; 
+                pointer-events: none; 
+                margin: 4px;
+                transition: opacity 0.3s ease-in-out;
+            }
+            
+            &:hover::after {
+                opacity: 1;
+            }
+
+            &#hab_1 {
+                &::after {
+                    content: "Avançado";
+                }
+            }
+            &#hab_2 {
+                &::after {
+                    content: "Avançado";
+                }
+            }&#hab_3 {
+                &::after {
+                    content: "Avançado";
+                }
+            }&#hab_4 {
+                &::after {
+                    content: "Avançado";
+                }
+            }&#hab_5 {
+                &::after {
+                    content: "Intermediario";
+                }
+            }
+            &#hab_6 {
+                &::after {
+                    content: "Avançado";
+                }
+            }
+            &#hab_7 {
+                &::after {
+                    content: "Basico";
+                }
+            }
+            &#hab_8 {
+                &::after {
+                    content: "Basico";
+                }
+            }
+
+
             &:hover {
                 box-shadow: 20px 10px 2px rgba(0, 0, 0, 0.072);
                 border: 1px solid rgb(122, 113, 113);
@@ -69,7 +124,8 @@
                 scale: 1.1;
 
                 .iconHabilits {
-                    transition: .5s;
+                    transform: rotate(360deg);
+                    transition: 20s;
                     filter: grayscale(0);
                 }
             }
