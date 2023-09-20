@@ -51,20 +51,16 @@
                     border-radius: 30px 5px 30px 5px;
                 }
     
-                button {
+                #button {
                     margin-top: 10px;
                     border-radius: 40px;
+                    text-align: center;
+                    color: $verde;
+                    transition: 1s;
     
-                    a {
-                        text-decoration: none;
-                        color: $verde;
-                        transition: 1s;
-                    }
 
                     &:hover {
-                        a {
-                            color: black;
-                        }
+                        color: black;
                     }
                 }
 

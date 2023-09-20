@@ -44,7 +44,8 @@ export default function Contatos() {
                         V:1. 10 / 09 / 2023
                     </p>
                 </div>
-                <form action="mailto:ramon.rodrigues.dev@gmail.com" method="post" enctype="text/plain" className={styles.formulario}>
+                
+                <form action="mailto:ramon.rodrigues.dev@gmail.com" method="post" enctype="text/plain" className={styles.formulario} id="formEmail">
                     
                     <div id={styles.div_name_email}>
                         <div>
