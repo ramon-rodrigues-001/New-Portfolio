@@ -10,11 +10,11 @@ export default function Convite(props) {
         <span  id="ancora-contatos">
         <section className={styles.sectionConvite} id={tema === 'Light' ? styles.Light : null}>
             <div className={styles.containerConvite}>
-                <p className={styles.subTitle}>Convite</p>
-                <h3 className={styles.title}>Mande um oi 🖐</h3>
+                <p className={styles.subTitle} data-aos="fade-right">Convite</p>
+                <h3 className={styles.title} data-aos="fade-right">Mande um oi 🖐</h3>
                 
                 <div className={styles.cards}>
-                    <div className={styles.cardConvite}>
+                    <div className={styles.cardConvite} data-aos="zoom-in">
                         <img src="https://thumbs.dreamstime.com/z/equipe-do-programador-e-de-projeto-torna-se-para-aplica%C3%A7%C3%A3o-web-com-funcionamento-da-neg%C3%B3cio-126510094.jpg?w=992" alt="" className={styles.img} />
                         <h3 className={styles.titleConvite}>Vamos trabalhar juntos</h3>
                         <p>
@@ -24,7 +24,7 @@ export default function Convite(props) {
                             < SendFill /> Iniciar uma conversa.
                         </a>
                     </div>
-                    <div className={styles.cardConvite}>
+                    <div className={styles.cardConvite} data-aos="zoom-in">
                         <img src="https://thumbs.dreamstime.com/z/conceito-de-processo-desenvolvimento-aplica%C3%A7%C3%B5es-m%C3%B3veis-isom%C3%A9tricas-e-concep%C3%A7%C3%A3o-web-projetos-equipe-trabalho-do-grupo-157569667.jpg?w=992" alt="" className={styles.img} />
                         <h3 className={styles.titleConvite}>Quer iniciar um projeto comigo?</h3>
                         <p>

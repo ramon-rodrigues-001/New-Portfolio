@@ -8,7 +8,7 @@ export default function SobreMim(props) {
 
     return (
         <section className={styles.home_sobreMim} id={tema === 'Light' ? styles.Light : styles.Dark}>
-            <div className={styles.container_sobreMim} id='ancora-sobre-mim'>
+            <div className={styles.container_sobreMim} id='ancora-sobre-mim' data-aos="zoom-in">
                 
                 {olhos && (
                     <img src="/olhos.webp" alt="" className={styles.olhos_sobreMim} />

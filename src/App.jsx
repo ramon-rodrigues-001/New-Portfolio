@@ -1,10 +1,14 @@
-// IMPORTANDO LAYOUT
 import { useEffect, useState } from "react";
+
+// Importando AOS animate
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // Importe do Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-// Importe do JavaScript do Bootstrap 
 import 'bootstrap/dist/js/bootstrap.min.js';
+
+// Import Style / SCSS
 import "./style/overall.scss"
 
 // Imports dos layOuts
@@ -39,6 +43,11 @@ function App() {
       setIntervalTime(4000)
     }
   }, [olhos]);
+
+  // Iniciando AOS animate
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
 
   // Mudar Tema CLARO / ESCURO

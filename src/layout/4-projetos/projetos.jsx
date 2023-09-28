@@ -43,12 +43,12 @@ export default function Projeto(props) {
     return (
         <span id="ancora-projetos">
         <section className={styles.projetos} id={tema == 'Light' ? styles.temaLigth : null}>
-            <div className={styles.div_de_animation}> {/*  <!-- DIV BIBLIOTECA ANIMAÇÃO AQUI--> */}
-                <p className={styles.subTitle}>Projetos</p>
-                <h3 className={styles.title}>Top 3 Projetos</h3>
+            <div className={styles.div_de_animation} >
+                <p className={styles.subTitle} data-aos="fade-right">Projetos</p>
+                <h3 className={styles.title} data-aos="fade-right">Top 3 Projetos</h3>
 
                 {/* <!-- CARROSEL DE PROJETOS -->  ANIMAÇÂO AQUI TBM*/}
-                <div id={styles.container_slider}>
+                <div id={styles.container_slider} data-aos="zoom-in"data-aos-duration="500">
                     <input type="radio" className={styles.input_slider_1} 
                     name="input-slider" id="input-slider-1" />
                     <input type="radio" className={styles.input_slider_2} 
@@ -59,7 +59,7 @@ export default function Projeto(props) {
                     <div id={styles.cards}>
                         <label htmlFor="input-slider-1" id="label-1" onClick={textoGogOfWar}>
                             <div className={styles.cardsCarrosel} id={styles.cardLabel_1}>
-                                <img className={styles.imagensProjeto} src="/god-of-war-tela.jpg" alt="projeto-GodOfWar" />
+                                <img className={styles.imagensProjeto} src="/god-of-war-tela.jpg" alt="projeto-GodOfWar"/>
                                 
                                 <div className={styles.containerDeBTN}>
                                     <a href="https://ramon-rodrigues-001.github.io/God-Of-War/" target="_blank" className="btn btnPersonalizado" id={styles.deploy}><span className="detalhes-btn quadrado_1"></span>
@@ -106,7 +106,7 @@ export default function Projeto(props) {
 
 
                 {/* DESCRIÇÂO DOS PROJETOS */}
-                <div id={styles.descrition_of_project}>
+                <div id={styles.descrition_of_project} data-aos="zoom-in"data-aos-duration="500">
                     <h2 id={styles.title_descrition_of_project}>
                         {titleProjeto}
                     </h2>
@@ -149,7 +149,7 @@ export default function Projeto(props) {
                 {/* <!-- CARDS DE PROJETOS --> */}
                 {mostraCards && (
                     <div id={styles.cardsDeProjetos}>
-                        <div className={styles.item_projetos}>
+                        <div className={styles.item_projetos} data-aos="flip-left">
                             <img src="/projeto-blizzard.webp" />
                             <span className={styles.containerBTN}>
                                 <a href="https://ramon-rodrigues-001.github.io/Games-Blizzard/" target="_blank" className="btn btnPersonalizado">
@@ -160,7 +160,7 @@ export default function Projeto(props) {
                                 </a>
                             </span>
                         </div>
-                        <div className={styles.item_projetos}>
+                        <div className={styles.item_projetos} data-aos="flip-left">
                             <img src="/god-of-war-tela.jpg" alt="god-of-war" />
                             <span className={styles.containerBTN}>
                                 <a href="https://ramon-rodrigues-001.github.io/God-Of-War/" target="_blank" className="btn btnPersonalizado">
@@ -171,7 +171,7 @@ export default function Projeto(props) {
                                 </a>
                             </span>
                         </div>
-                        <div className={styles.item_projetos}>
+                        <div className={styles.item_projetos} data-aos="flip-left">
                             <img src="/personal-project.png" alt="Livre-leitor" />
                             <span className={styles.containerBTN}>
                                 <a href="https://livre-leitor.netlify.app/" target="_blank" className="btn btnPersonalizado">

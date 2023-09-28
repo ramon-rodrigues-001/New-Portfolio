@@ -17,8 +17,8 @@ export default function Contatos() {
 
     return (
         <footer className={styles.sectionContatos}>
-            <p className={styles.subTitle}>Contatos</p>
-            <h2 className={styles.title}>Me contate</h2>
+            <p className={styles.subTitle} data-aos="fade-right">Contatos</p>
+            <h2 className={styles.title} data-aos="fade-right">Me contate</h2>
 
 
             <div id={styles.animação_texto_contatos}>
@@ -38,9 +38,13 @@ export default function Contatos() {
                     <button className="btn btn-outline-info btnPersonalizado" value={'ramon.rodrigues.dev@gmail.com'} id={styles.copiar_email} onClick={copiaChave}>
                         < EnvelopeAt /> . {copy ? 'COPIADO': 'COPIAR EMAIL'} . < EnvelopeAt />
                     </button>
-                    <p><strong>Cell: </strong>(33) 97879-2332</p>
-                    <p><strong>Endereço: </strong>Capelinha-MG 39680‑000</p>
-                    <p data-aos="fade-right" data-aos-duration="2000">
+                    <p data-aos-duration="1500" data-aos="fade-right">
+                        <strong>Cell: </strong>(33) 97879-2332
+                    </p>
+                    <p data-aos-duration="2000" data-aos="fade-right">
+                        <strong>Endereço: </strong>Capelinha-MG 39680‑000
+                    </p>
+                    <p data-aos-duration="2500" data-aos="fade-right">
                         V:1. 10 / 09 / 2023
                     </p>
                 </div>
