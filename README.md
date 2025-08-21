@@ -1,4 +1,5 @@
 
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header&animation=blinking&fontColor=fff&fontSize=50"/>
 <body>
 
   <header>
@@ -8,6 +9,7 @@
       <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange.svg" alt="Status">
     </p>
     <p>Bem-vindo ao meu <strong>Portfólio Pessoal</strong>! Este projeto é a vitrine das minhas habilidades como desenvolvedor web.</p>
+    <p><strong>VEJÁ O PROJETO (DEPLOY): https://newportfolio2.netlify.app/</strong></p>
   </header>
   <br><br>
 
@@ -108,5 +110,6 @@ New-Portfolio/
     <p>Este projeto está licenciado sob a <strong>Licença MIT</strong>. Consulte o arquivo <a href="LICENSE">LICENSE</a> para mais detalhes.</p>
   </section>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
 </body>
 </html>
